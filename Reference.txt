@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [Arduino Uno + Stepper Motor]
 - https://docs.arduino.cc/learn/electronics/stepper-motors
 - https://circuitdigest.com/microcontroller-projects/arduino-stepper-motor-control-tutorial
@@ -8,3 +9,21 @@
 - https://www.electroniclinic.com/esp32-cam-esp32-camera-programming-using-arduino-issues-fixed/
 - https://create.arduino.cc/projecthub/noah_arduino/using-esp32-cam-with-arduino-b4f12c
 
+=======
+[Arduino Uno + Stepper Motor]
+- https://docs.arduino.cc/learn/electronics/stepper-motors
+- https://circuitdigest.com/microcontroller-projects/arduino-stepper-motor-control-tutorial
+- https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/
+
+[Arduino Uno Bluetooth + Esp32 Cam]
+- https://dronebotworkshop.com/esp32-cam-intro/
+- https://www.electroniclinic.com/esp32-cam-esp32-camera-programming-using-arduino-issues-fixed/
+- https://create.arduino.cc/projecthub/noah_arduino/using-esp32-cam-with-arduino-b4f12c
+
+[Arduino Uno + Temp Sensor DHT22]
+- https://www.instructables.com/How-to-use-DHT-22-sensor-Arduino-Tutorial/
+
+[Arduino Uno + IR Sensor HW-201]
+-  
+
+>>>>>>> Stashed changes
