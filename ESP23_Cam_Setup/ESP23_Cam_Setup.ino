@@ -1,9 +1,9 @@
 #include <BluetoothSerial.h>
 //
 //
-//#if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
-//#error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
-//#endif
+#if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
+#error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
+#endif
 
 BluetoothSerial SerialBT;
 void setup() {
@@ -29,7 +29,7 @@ void loop() {
 
 
 
-
+//
 //
 //#include "esp_camera.h"
 //#include <WiFi.h>
@@ -39,7 +39,7 @@ void loop() {
 ////            Ensure ESP32 Wrover Module or other board with PSRAM is selected
 ////            Partial images will be transmitted if image exceeds buffer size
 ////
-//
+////
 //// Select camera model
 ////#define CAMERA_MODEL_WROVER_KIT // Has PSRAM
 ////#define CAMERA_MODEL_ESP_EYE // Has PSRAM
@@ -49,7 +49,7 @@ void loop() {
 ////#define CAMERA_MODEL_M5STACK_ESP32CAM // No PSRAM
 //#define CAMERA_MODEL_AI_THINKER // Has PSRAM
 ////#define CAMERA_MODEL_TTGO_T_JOURNAL // No PSRAM
-//
+////
 //#include "camera_pins.h"
 //
 //const char* ssid = "Ianrey258";
